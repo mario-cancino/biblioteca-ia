@@ -156,6 +156,7 @@ img {
     padding: 14px 24px;
     border-radius: 8px;
     font-weight: 700;
+
     transition:
         transform 0.2s ease,
         background-color 0.2s ease,
@@ -524,6 +525,10 @@ img {
         width: 100%;
         text-align: center;
     }
+
+}
+
+
 /* ========================================
    PÁGINAS DE CATEGORÍAS
 ======================================== */
@@ -604,5 +609,4 @@ img {
         padding: 60px 20px;
     }
 
-}
 }
