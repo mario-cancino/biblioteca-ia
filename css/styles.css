@@ -524,5 +524,85 @@ img {
         width: 100%;
         text-align: center;
     }
+/* ========================================
+   PÁGINAS DE CATEGORÍAS
+======================================== */
 
+.category-hero {
+    padding: 100px 24px 80px;
+    text-align: center;
+    background-color: #f5f8ff;
+}
+
+.category-hero h1 {
+    max-width: 900px;
+    margin: 0 auto 25px;
+
+    font-size: clamp(42px, 6vw, 68px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+
+    color: #0f172a;
+}
+
+.category-hero h1 span {
+    display: block;
+    color: #2563eb;
+}
+
+.category-hero > p:last-child {
+    max-width: 650px;
+    margin: 0 auto;
+
+    color: #64748b;
+    font-size: 18px;
+}
+
+.category-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.category-content .resource-card h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.back-home {
+    padding: 0 24px 100px;
+    text-align: center;
+}
+
+
+/* ========================================
+   RESPONSIVE - PÁGINAS DE CATEGORÍAS
+======================================== */
+
+@media (max-width: 768px) {
+
+    .category-hero {
+        padding: 75px 20px 60px;
+    }
+
+    .category-hero h1 {
+        font-size: 42px;
+    }
+
+    .category-hero > p:last-child {
+        font-size: 16px;
+    }
+
+    .category-content {
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+    }
+
+}
 }
